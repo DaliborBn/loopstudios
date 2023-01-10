@@ -55,7 +55,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-top: 3.2rem;
+    margin-top: 3rem;
 }
 .nav-branding {
     font-family: var(--alata);
@@ -109,7 +109,7 @@ a {
     font-family: var(--alata);
     font-size: 3rem;
     text-transform: lowercase;
-    padding-top: 3.2rem;
+    padding-top: 3rem;
     padding-bottom: 12rem;
 }
 #hamburgerRow a {
