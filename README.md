@@ -1,2 +1,3 @@
-# loopstudios
-Loopstudios Landing Page, challenge from site https://www.frontendmentor.io/ 
+### huddle-landing-page-curved
+
+#### Visit live URL: https://daliborbn.github.io/loopstudios-landing-page/
