@@ -1,0 +1,392 @@
+
+/*MIN-WIDTH: 576px & MAX-WIDTH: 767px */
+@media screen and (min-width: 576px) and (max-width: 767px){
+.nav-branding {
+    font-size: 3.5rem;
+}
+.nav-item {
+    padding-left: 7rem;
+}
+#hamburgerRow a {
+    font-size: 3.5rem;
+}
+.ft-link {
+    font-size: 2.2rem;
+}
+.creation-item > .img-gradient > h3 {
+  font-size: 3.2rem;
+}
+#leaderText {
+    padding: 0 7rem;
+}
+.main-padding {
+    padding: 0 7rem;
+}
+}
+
+/* MIN-WIDTH: 768px */
+@media screen and (min-width: 768px) {
+.main-padding {
+    padding: 0 8rem;
+}
+.header-wrapper {
+    height: 45rem;
+}
+.nav-branding {
+    font-size: 2.5rem;
+}
+.navbar {
+    margin-top: 4rem;
+}
+.nav-menu {
+    display: flex;
+    background-color: transparent;
+    position: static;
+    left: 0;
+    top: 0px;
+    gap: 2.3rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: auto;
+    transition: 0.3s;
+    font-family: var(--josefin);
+    font-size: 3rem;
+    text-transform: none;
+    z-index: 2;
+}
+.nav-menu li a {
+    font-size: 1.5rem;
+}
+.nav-item {
+    margin: 0;
+    padding-left: 0;
+}
+.hamburger {
+    display: none;
+}
+#hamburgerRow {
+    display: none;
+}
+
+#headerCenter {
+    width: 55%;
+}
+h1 {
+    font-size: 4rem;
+}
+
+/* Underline on navbar! */
+ul li a {
+    position: relative;
+}
+ul li a::after {
+    position: absolute;
+    content: '';
+    background: var(--white);
+    height: 0.2rem;
+    width: 0;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s;
+}
+ul li a:hover::after {
+    width: 50%;
+}
+
+/* Darked header hero for desktop! */
+.header-wrapper {
+    background-image: url('./img/desktop/image-hero.jpg');
+    position: relative;
+    width: 100%;
+    height: 40rem;
+    z-index: 4;
+}
+.header-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.500);
+}
+/* Relative for visible over hero img! */
+#headerCenterWrapper {
+    position: relative;
+    padding-top: 8rem;
+}
+.nav-branding {
+    position: relative;
+}
+
+/* DIV over DIV interactive! */
+#leader {
+    position: relative;
+}
+#leaderImg > img {
+    width: 70%;
+}
+#leaderText {
+    position: relative;
+    background: var(--white);
+    width: 46%;
+    left: 54%;
+    margin-top: -22%;
+    padding: 0;
+    padding-right: 8rem;
+}
+#leaderImg > .mobile {
+    display: none;
+}
+#leaderImg > .desktop {
+    display: block;
+}
+#leaderText div > h2 {
+    font-size: 2.8rem;
+    text-align: left;
+    padding: 18% 0 0 18%;
+}
+#leaderText div > p {
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 1.5rem 0 3rem 18%;
+    line-height: 2.1rem;
+}
+#creations {
+    margin-top: 6rem;
+}
+#creationsWrapper {
+    grid-template-areas: 
+    "deepEarth nightArcade soccerTeam theGrid"
+    "fromAbove borealis curiosity fisheye";
+}
+.creation-item > .img-gradient > .mobile {
+    display: none;
+}
+.creation-item > .img-gradient > .desktop {
+    display: block;
+}
+.img-gradient::after {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.800), rgba(255, 255, 255, 0) 50%);
+}
+.creations-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.creation-item > .img-gradient > h3 {
+    font-size: 1.7rem;
+}
+.creations-row > h2 {
+    margin-bottom: 0;
+    font-size: 3rem;
+}
+.see-all {
+    width: 15%;
+    margin: 0;
+    padding: 0.5rem 0;
+}
+.see-all > h4 {
+    font-size: 1.2rem;
+    letter-spacing: 0.4rem;
+}
+#creations > .mobile {
+    display: none;
+}
+.creations-row > .desktop {
+    display: block;
+}
+
+#footerWrapper {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-bottom: 3.5rem;
+}
+.sct-1 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    text-align: left;
+    width: 50%;
+    margin: 2.5rem 0 0 0;
+}
+.ft-branding {
+    font-size: 2.2rem;
+}
+.ft-menu  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 83%;
+    gap: 1.5rem;
+    margin: 0;
+}
+.ft-item {
+    margin-top: 1.7rem;
+}
+.ft-link {
+    font-size: 1.4rem;
+}
+.sct-2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+    text-align: right;
+    margin: 2.6rem 0 0 0;
+}
+.social {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 0;
+}
+.social-items {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    gap: 1rem;
+}
+.social-items li a img {
+    width: 80%;
+}
+.copy-right {
+    margin: 1.4rem 0 0 0;
+}
+/* Underline on footer social! */
+.social-items li a {
+    position: relative;
+}
+.social-items li a::after {
+    position: absolute;
+    content: '';
+    background: var(--white);
+    height: 0.2rem;
+    width: 0;
+    bottom: -0.3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s;
+}
+.social-items li a:hover::after {
+    width: 100%;
+}
+}
+
+/* MIN-WIDTH: 992px */
+@media screen and (min-width: 992px) {
+.header-wrapper {
+    height: 55rem;
+}
+#headerCenterWrapper {
+padding-top: 10rem;
+}
+.nav-branding {
+    font-size: 3rem;
+}
+.nav-menu li a {
+    font-size: 1.7rem;
+}
+.nav-menu {
+    gap: 3.5rem;
+}
+.main-padding {
+    padding: 0 14rem;
+}
+#headerCenter {
+    width: 410px;
+}
+h1 {
+    font-size: 5rem;
+}
+#leaderText {
+    padding-right: 14rem;
+}
+#leaderText div > h2 {
+    font-size: 3rem;
+}
+#leaderText div > p {
+    font-size: 1.4rem;
+}
+.see-all > h4 {
+    font-size: 1.5rem;
+}
+.creation-item > .img-gradient > h3 {
+    font-size: 2rem;
+}
+.social-items {
+    gap: 2rem;
+}
+.ft-menu {
+    width: 85%;
+}
+}
+
+/* MIN-WIDTH: 1200px */
+@media screen and (min-width: 1200px) {
+.container {
+    max-width: 144rem;
+}
+.header-wrapper {
+    height: 65rem;
+}
+.nav-branding {
+    font-size: 3.6rem;
+}
+.nav-menu li a {
+    font-size: 1.9rem;
+}
+.main-padding {
+    padding: 0 16rem;
+}
+#headerCenterWrapper {
+    padding-top: 12rem;
+}
+#headerCenter {
+    width: 600px;
+}
+h1 {
+    font-size: 7rem;
+}
+#leader {
+    padding-top: 15rem;
+}
+#leaderText {
+    padding-right: 16rem;
+}
+#leaderText div > h2 {
+    font-size: 4rem;
+}
+#leaderText div > p {
+    font-size: 1.5rem;
+}
+#creations {
+    margin: 10rem 0 16rem 0;
+}
+.creations-row {
+    margin-bottom: 8rem;
+}
+.creations-row > h2 {
+    font-size: 4.5rem;
+}
+#creationsWrapper {
+    gap: 3.2rem;
+}
+.creation-item > .img-gradient > h3 {
+    font-size: 2.5rem;
+}
+.main-padding-sct {
+    padding: 0 2.5rem;
+}
+.ft-menu {
+    width: 80%;
+}
+.ft-link {
+    font-size: 1.6rem;
+}
+}
