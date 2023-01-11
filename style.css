@@ -149,11 +149,11 @@ h1 {
     display: none;
 }
 #leaderText {
-    padding: 0 2rem;
+    padding: 0 3rem;
 }
 #leaderText div > h2 {
     font-family: var(--josefin);
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
     font-weight: 300;
@@ -216,7 +216,7 @@ h1 {
     margin-bottom: 9rem;
 }
 .creations-row > h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-family: var(--josefin);
     font-weight: 300;
     text-transform: uppercase;
