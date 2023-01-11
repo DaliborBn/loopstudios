@@ -121,11 +121,6 @@ a {
 #hamburgerRow img {
     width: 30px;
 }
-.hamburger:focus,
-.hamburger:active {
-    outline: none;
-    box-shadow: none;
-}
 
 #headerCenterWrapper {
     padding-top: 16rem;
