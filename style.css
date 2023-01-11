@@ -162,7 +162,7 @@ h1 {
 }
 #leaderText div > p {
     font-family: var(--alata);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: var(--dark-gray);
     text-align: center;
     padding-top: 2.2rem;
