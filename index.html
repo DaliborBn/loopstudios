@@ -23,7 +23,7 @@
 
             <!-- CLOSE HAMBURGER MENU -->
             <div class="main-padding" id="hamburgerRow">
-              <a  href="#" class="close-a">Loopstudios</a>
+              <a href="#" class="close-a">Loopstudios</a>
               <div class="ximage">
                 <img src="./img/icon-close.svg" alt="close" class="close-img">
               </div>
@@ -42,7 +42,7 @@
               <a href="#" class="nav-link">Products</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Support</a>
+              <a href="#" class="nav-link login">Login</a>
             </li>
           </ul>
 
@@ -52,6 +52,60 @@
 
         </nav>
         
+        <!-- SIGN IN AND SIGNUP FORM -->
+        <div class="modal" id="modal-signin">
+          
+          <div class="modal-top">
+            <img class="close-modal" src="./img/icon-close.svg" alt="close">
+            <h3>USER LOGIN</h3>
+          </div>
+          <div class="input-field">
+            <label for="email">EMAIL:</label>
+            <input id="email" type="text" name="email" placeholder="james.smith87@gmail.com">
+          </div>
+          <div class="input-field">
+            <label for="password">PASSWORD:</label>
+            <input id="password" type="text" name="password" placeholder="*******">
+          </div>
+          <div class="input-field">
+            <button class="btn" type="button" onClick="window.location.reload();">LOGIN</button>
+            <h4>Don't have an account? <a id="signup" href="#">&nbsp;SIGN UP</a></h4>
+          </div>
+          
+        </div>
+        
+        <div class="modal" id="modal-signup">
+          
+          <div class="modal-top">
+            <img class="close-modal" src="./img/icon-close.svg" alt="close">
+            <h3>SIGN UP</h3>
+          </div>
+          <div class="input-field">
+            <label for="first_name">FIRST NAME:</label>
+            <input id="first_name" type="text" name="first_name" placeholder="James">
+          </div>
+          <div class="input-field">
+            <label for="last_name">LAST NAME:</label>
+            <input id="last_name" type="text" name="last_name" placeholder="Smith">
+          </div>
+          <div class="input-field">
+            <label for="email-signup">EMAIL:</label>
+            <input id="email-signup" type="text" name="email-signup" placeholder="james.smith87@gmail.com">
+          </div>
+          <div class="input-field">
+            <label for="password-signup">PASSWORD:</label>
+            <input id="password-signup" type="text" name="password-signup" placeholder="*******">
+          </div>
+          <div class="input-field">
+            <label for="retype_password">RETYPE PASSWORD:</label>
+            <input id="retype_password" type="text" name="retype_password" placeholder="*******">
+          </div>
+          <div class="input-field">
+            <button class="btn" type="button" onClick="window.location.reload();">SIGN UP</button>
+          </div>
+        
+        </div>      
+      
         <div class="main-padding" id="headerCenterWrapper">
           <div id="headerCenter">
             <h1>Immersive experiences that deliver</h1>
@@ -169,7 +223,7 @@
     </section>
 
     <!-- FOOTER -->
-    <footer>
+    <footer id="footer">
       <div id="footerWrapper" class="main-padding">
         <div class="sct-1">
           <a href="#" class="ft-branding">loopstudios</a>
@@ -188,7 +242,7 @@
               <a href="#" class="ft-link">Products</a>
             </li>
             <li class="ft-item">
-              <a href="#" class="ft-link">Support</a>
+              <a href="#footer" class="ft-link login">Login</a>
             </li>
           </ul>
 
@@ -227,6 +281,8 @@
       </div>
     </footer>
   </div>
+
+  <div id="overlay"></div>
 
   <script src="script.js"></script>
 </body>
