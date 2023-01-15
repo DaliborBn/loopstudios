@@ -170,6 +170,7 @@ label {
     border: none;
     transition: 0.3s ease;
     background-color: var(--white);
+    border-radius: 0.5rem;
 }
 .input-field input:focus {
     background-color: rgb(231, 220, 255);
@@ -195,6 +196,7 @@ label {
     color: rgba(57, 19, 55, 1);
     cursor: pointer;
     border: none;
+    border-radius: 0.5rem;
     transition: 0.3s ease;
 }
 .btn:hover {
