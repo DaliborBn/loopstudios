@@ -167,6 +167,7 @@ label {
     padding: 1rem;
     font-size: 1.6rem;
     outline: none;
+    background-color: var(--white);
 }
 .input-field h4, .input-field a {
     font-size: 1.6rem;
