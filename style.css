@@ -167,7 +167,12 @@ label {
     padding: 1rem;
     font-size: 1.6rem;
     outline: none;
+    border: none;
+    transition: 0.3s ease;
     background-color: var(--white);
+}
+.input-field input:focus {
+    background-color: rgb(231, 220, 255);
 }
 .input-field h4, .input-field a {
     font-size: 1.6rem;
