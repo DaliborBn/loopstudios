@@ -1,6 +1,5 @@
-
 /*MIN-WIDTH: 576px & MAX-WIDTH: 767px */
-@media screen and (min-width: 576px) and (max-width: 767px){
+@media screen and (min-width: 576px) and (max-width: 768px){
 .nav-branding {
     font-size: 3.5rem;
 }
@@ -9,6 +8,9 @@
 }
 #hamburgerRow a {
     font-size: 3.5rem;
+}
+.modal {
+    padding: 3.8rem 7rem;
 }
 .ft-link {
     font-size: 2.2rem;
@@ -69,7 +71,14 @@
 #hamburgerRow {
     display: none;
 }
-
+.modal {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 94%;
+    padding: 3.8rem 7rem;
+}
 #headerCenter {
     width: 55%;
 }
