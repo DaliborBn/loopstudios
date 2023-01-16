@@ -76,8 +76,9 @@
     top: 50%;
     transform: translate(-50%, -50%);
     width: 500px;
-    height: 94%;
+    height: 65rem;
     padding: 3.8rem 7rem;
+    border-radius: 2rem;
 }
 #headerCenter {
     width: 55%;
