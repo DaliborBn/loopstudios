@@ -52,6 +52,15 @@ document.querySelectorAll('.btn').forEach(n => n.addEventListener ('click', () =
   overlay.style.display = 'none';
 }));
 
+/* CLOSE FORM by click outside form*/
+overlay.addEventListener('click', closeForm);
+
+function closeForm() {
+  modalSignIn.classList.remove('active');
+  modalSignUp.classList.remove('active');
+  overlay.style.display = 'none';
+}
+
 /* VALIDATION FORM */
 let inputs = document.querySelectorAll('input'); // inputs = 7 arrays;
 let errors = {                                   // the "errors" consists of strings;
