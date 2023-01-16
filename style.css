@@ -153,9 +153,6 @@ a {
     font-size: 2.5rem;
     font-weight: 300;
 }
-label {
-    font-size: 1.6rem;
-}
 .input-field {
     display: flex;
     flex-direction: column;
