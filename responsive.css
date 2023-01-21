@@ -340,7 +340,7 @@ h1 {
 /* MIN-WIDTH: 1200px */
 @media screen and (min-width: 1200px) {
 .container {
-    max-width: 144rem;
+    max-width: 100%;
 }
 .header-wrapper {
     height: 65rem;
@@ -365,6 +365,7 @@ h1 {
 }
 #leader {
     padding-top: 15rem;
+    max-width: 144rem;
 }
 #leaderText {
     padding-right: 16rem;
@@ -377,6 +378,7 @@ h1 {
 }
 #creations {
     margin: 10rem 0 16rem 0;
+    max-width: 144rem;
 }
 .creations-row {
     margin-bottom: 8rem;
@@ -394,7 +396,7 @@ h1 {
     padding: 0 2.5rem;
 }
 .ft-menu {
-    width: 80%;
+    width: 52%;
 }
 .ft-link {
     font-size: 1.6rem;
