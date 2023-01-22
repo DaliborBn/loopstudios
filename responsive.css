@@ -1,4 +1,4 @@
-/*MIN-WIDTH: 576px & MAX-WIDTH: 767px */
+/*MIN-WIDTH: 576px & MAX-WIDTH: 768px */
 @media screen and (min-width: 576px) and (max-width: 768px){
 .nav-branding {
     font-size: 3.5rem;
@@ -232,8 +232,8 @@ ul li a:hover::after {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 83%;
-    gap: 1.5rem;
+    width: 29rem;
+    gap: 2rem;
     margin: 0;
 }
 .ft-item {
@@ -332,9 +332,6 @@ h1 {
 .social-items {
     gap: 2rem;
 }
-.ft-menu {
-    width: 85%;
-}
 }
 
 /* MIN-WIDTH: 1200px */
@@ -396,7 +393,7 @@ h1 {
     padding: 0 2.5rem;
 }
 .ft-menu {
-    width: 52%;
+    width: 32rem;
 }
 .ft-link {
     font-size: 1.6rem;
