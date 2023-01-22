@@ -77,6 +77,7 @@ a {
     font-size: 3rem;
     text-transform: uppercase;
     z-index: 2;
+    overflow: auto;
 }
 .hamburger {
     display: block;
@@ -97,6 +98,9 @@ a {
 .nav-item {
     margin: 0.7rem 0;
     padding-left: 3rem;
+}
+.nav-item:nth-last-child(1) {
+    margin-bottom: 3rem;
 }
 #hamburgerRow {
     display: flex;
