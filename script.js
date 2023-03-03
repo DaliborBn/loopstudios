@@ -136,3 +136,29 @@ const validateEmail = email => {               // function for email validation;
     }
     return false;
 }
+
+// Links to my GitHub Pages
+function navToPage1() {
+  window.location.href = "https://brilliant-mousse-825d7f.netlify.app";
+}
+function navToPage2() {
+  window.location.href = "https://visionary-hotteok-f879c6.netlify.app/";
+}
+function navToPage3() {
+  window.location.href = "https://inquisitive-cheesecake-a608d3.netlify.app";
+}
+function navToPage4() {
+  window.location.href = "https://cheery-rolypoly-b62791.netlify.app/";
+}
+function navToPage5() {
+  window.location.href = "https://daliborbn.github.io/countdown-banner/";
+}
+function navToPage6() {
+  window.location.href = "https://enchanting-lebkuchen-92e700.netlify.app/";
+}
+function navToPage7() {
+  window.location.href = "https://courageous-maamoul-b86e77.netlify.app/";
+}
+function navToPage8() {
+  window.location.href = "https://daliborbn.github.io/nft-preview-card/";
+}
